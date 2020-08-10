@@ -116,6 +116,7 @@ for line in rdr:
                  int(df_sell['시가']), int(df_sell['종가']), int(df_sell['고가']), int(df_sell['저가'])])
 
 
+# 엑셀로 저장
 today = datetime.datetime.strftime(datetime.datetime.today(), '%Y%m%d')
 base_dir = "C:/Users/minjae/Downloads"
 file_nm = "stock_output_" + today + ".xlsx"
